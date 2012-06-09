@@ -21,7 +21,9 @@ if(!file_exists('pages/'.$currentPage.'.php')) {
 	header('Location: http://dailybruin.com');
 }
 
-include('include/head.php');
+include('include/php/head.php');
 
 include('pages/'.$currentPage.'.php');
+
+include('include/php/foot.php');
 ?>
