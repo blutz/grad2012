@@ -1,3 +1,7 @@
+html,body {
+	height:100%;
+}
+
 nav {
 	height: 50px;
 	color:white;
@@ -108,4 +112,10 @@ ul.mainNav li.selected a {
 
 ul.mainNav li.selected a:hover {
 	text-decoration:none;
+}
+
+div.leftScroll {
+	width:340px;
+	background-color:#efefef;
+	height:100%;
 }

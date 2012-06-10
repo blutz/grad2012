@@ -3,10 +3,13 @@
 	<title>Daily Bruin | Graduation 2012 | <?php echo $validPages[$currentPage]; ?></title>
 	<link rel="stylesheet" href="include/css/base.css" type="text/css" />
 	<link rel="stylesheet" href="include/css/style.css" type="text/css" />
-	
+	<link rel="stylesheet" href="include/css/responsive.css" type="text/css" />
 
-	<!-- custom scroll support -->
+
+
 	<script type="text/javascript" src="include/js/jquery-1.7.2.min.js"></script>
+	<script type="text/javascript" src="include/js/scripts.js"></script>
+
 
 	<!--[if lt IE 9]>
 		<script src="include/js/html5shiv.js"></script>
