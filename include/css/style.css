@@ -118,6 +118,7 @@ div.leftScroll {
 	width:340px;
 	background-color:#efefef;
 	height:100%;
+    border-right: 1px solid #a2a2a2;
 }
 
 a#moreDropdown {

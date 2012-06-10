@@ -3,8 +3,19 @@ $(document).ready(function(){
 	fixNavBar();
 	$(window).resize(fixContentHeight);
 	$(window).resize(fixNavBar);
+	$(window).resize(initScrollPanes);
 	$('#moreDropdown').click(moreButtonHandler);
+	
+	initScrollPanes();
+	
 });
+
+function initScrollPanes() {
+	var widthOfLeft = $('.leftScroll').width();
+	var widthOfContent = $('.rightContentPane').width();
+	$('.leftScroll').jScrollPane({clickOnTrack:false,contentWidth:widthOfLeft});
+	$('.rightContentPane').jScrollPane({clickOnTrack:false,contentWidth:widthOfContent});
+}
 
 function moreButtonHandler() {
 	$('ul.dropdownList').toggle();
