@@ -2,6 +2,7 @@ $(document).ready(function(){
 	fixContentHeight();
 	fixNavBar();
 	initScrollPanes();
+	loadGallery();
 
 	$(window).resize(fixContentHeight);
 	$(window).resize(fixNavBar);
@@ -10,8 +11,14 @@ $(document).ready(function(){
 	$('#moreDropdown').click(moreButtonHandler);
 	
 	$('div.scrollContent').click(scrollContentHandler);
+	
 			
 });
+
+function loadGallery() {	
+	Galleria.loadTheme('include/gallery/galleria.classic.min.js');
+    Galleria.run('#galleria');
+}
 
 function scrollContentHandler() {
 	var contentName = $(this).attr('name');

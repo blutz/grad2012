@@ -8,6 +8,12 @@
 	<script type="text/javascript" src="include/js/jquery-1.7.2.min.js"></script>
 	<script type="text/javascript" src="include/js/scripts.js"></script>
 	
+	<?php if($currentPage == 'then-and-now' || $currentPage == 'day-in-the-life') { ?>
+	<!-- Gallery scripts -->
+	<script type="text/javascript" src="include/js/galleria-1.2.7.min.js"></script>
+	<script type="text/javascript" src="include/js/galleria.history.min.js"></script>
+	<?php } ?>
+	
 	<!-- Everything needed for scroll scripts -->
 	<link type="text/css" href="include/css/jquery.jscrollpane.css" rel="stylesheet" media="all" />
 	<script type="text/javascript" src="include/js/jquery.mousewheel.js"></script>
