@@ -1,20 +1,28 @@
 $(document).ready(function(){
 	fixContentHeight();
 	fixNavBar();
+	initScrollPanes();
+
 	$(window).resize(fixContentHeight);
 	$(window).resize(fixNavBar);
 	$(window).resize(initScrollPanes);
+	$(window).resize(fixRightScroll);
 	$('#moreDropdown').click(moreButtonHandler);
-	
-	initScrollPanes();
-	
+		
 });
 
 function initScrollPanes() {
+	fixRightScroll();
 	var widthOfLeft = $('.leftScroll').width();
 	var widthOfContent = $('.rightContentPane').width();
 	$('.leftScroll').jScrollPane({clickOnTrack:false,contentWidth:widthOfLeft});
-	$('.rightContentPane').jScrollPane({clickOnTrack:false,contentWidth:widthOfContent});
+	$('#rightContentPane').jScrollPane({clickOnTrack:false,contentWidth:widthOfContent});
+}
+
+function fixRightScroll() {
+	var widthOfRight = $(window).width() - $('.leftScroll').outerWidth()-20;
+	console.log($('.leftScroll').outerWidth());
+	$('#rightContentPane').css('width',widthOfRight);
 }
 
 function moreButtonHandler() {
