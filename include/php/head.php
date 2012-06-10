@@ -12,6 +12,11 @@
 	<!-- Gallery scripts -->
 	<script type="text/javascript" src="include/js/galleria-1.2.7.min.js"></script>
 	<script type="text/javascript" src="include/js/galleria.history.min.js"></script>
+	<script type="text/javascript">
+		$(document).ready(function(){
+				loadGallery();
+		});
+	</script>
 	<?php } ?>
 	
 	<!-- Everything needed for scroll scripts -->

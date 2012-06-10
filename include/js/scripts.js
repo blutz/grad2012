@@ -2,7 +2,6 @@ $(document).ready(function(){
 	fixContentHeight();
 	fixNavBar();
 	initScrollPanes();
-	loadGallery();
 
 	$(window).resize(fixContentHeight);
 	$(window).resize(fixNavBar);
