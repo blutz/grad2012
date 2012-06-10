@@ -8,8 +8,20 @@ $(document).ready(function(){
 	$(window).resize(initScrollPanes);
 	$(window).resize(fixRightScroll);
 	$('#moreDropdown').click(moreButtonHandler);
-		
+	
+	$('div.scrollContent').click(scrollContentHandler);
+			
 });
+
+function scrollContentHandler() {
+	var contentName = $(this).attr('name');
+	$('div#rightContentPane').children().children().children('div.rightContent').each(function() {
+		if($(this).attr('id') == contentName)
+			$(this).show();
+		else
+			$(this).hide();
+	});
+}
 
 function initScrollPanes() {
 	fixRightScroll();
@@ -21,7 +33,6 @@ function initScrollPanes() {
 
 function fixRightScroll() {
 	var widthOfRight = $(window).width() - $('.leftScroll').outerWidth()-20;
-	console.log($('.leftScroll').outerWidth());
 	$('#rightContentPane').css('width',widthOfRight);
 }
 
