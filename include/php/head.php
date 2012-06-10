@@ -17,18 +17,34 @@
 </head>
 
 <body>
+<ul class="dropdownList">
+	<?php 
+		foreach($validPages as $page => $title) {?>
+		<li<?php 
+			echo " id='nav-item-".$page."-2'";
+			if($page == $currentPage) echo " class='selected'";
+		?>><a href="<?php echo $page; ?>"><?php echo $title; ?></a></li>
+	<?php } ?>
+</ul>
+
 
 <nav>
 	<div id="logos">
 		<a id="dbLink" href="http://dailybruin.com/">Daily Bruin</a>
 		<span id="graduationLink">Graduation 2012</span>
 	</div> <!-- end div logos -->	
+	<a id="moreDropdown">More <div class="downarrow"></div></a>
+
 	<ul class="mainNav">
-		<?php foreach($validPages as $page => $title) {?>
-			<li<?php if($page == $currentPage) echo " class='selected'"; ?>><a href="<?php echo $page; ?>"><?php echo $title; ?></a></li>
-		<?php }?>
-	
+		<?php 
+			foreach($validPages as $page => $title) {?>
+			<li<?php 
+				if($page == $currentPage) echo " id='selectedList'";
+				echo " class='nav-item-".$page."'";
+			?>><a href="<?php echo $page; ?>"><?php echo $title; ?></a></li>
+		<?php } ?>
 	</ul>
+	
 </nav>
 
 <div id="content">

@@ -85,7 +85,7 @@ ul.mainNav li:last-child {
 	border-right:none;
 }
 
-ul.mainNav li.selected {
+ul.mainNav li#selectedList {
 
 	background-color: #13466B;
 	border-radius: 3px;
@@ -104,7 +104,7 @@ ul.mainNav li.selected {
 
 }
 
-ul.mainNav li.selected a {
+ul.mainNav li#selectedList a {
 	font-weight: 800;
 	line-height: 0;
 
@@ -118,4 +118,55 @@ div.leftScroll {
 	width:340px;
 	background-color:#efefef;
 	height:100%;
+}
+
+a#moreDropdown {
+
+    float: right;
+    padding-top: 14px;
+    color: white;
+    font-size: 1.1em;
+    margin-right: 23px;
+    
+    -webkit-touch-callout: none;
+	-webkit-user-select: none;
+	-khtml-user-select: none;
+	-moz-user-select: none;
+	-ms-user-select: none;
+	user-select: none;
+
+	cursor:pointer;
+
+}
+
+div.downarrow {
+
+    width: 0;
+    height: 0;
+    border-top: 5px solid white;
+    border-left: 5px solid transparent;
+    border-right: 5px solid transparent;
+    position: relative;
+    top: -12px;
+    right: -40px;
+
+}
+
+ul.dropdownList {
+    background: white;
+    border-radius: 3px;
+    padding: 5px;
+    border: 1px solid #aaa;
+    box-shadow: 0px 0px 10px rgba(0,0,0,0.2);
+    position: absolute;
+    right: 14px;
+    top: 42px;
+	display:none;
+}
+
+ul.dropdownList li a {
+	text-decoration:none;
+}
+ul.dropdownList li.selected {
+	font-weight:bold;
 }
