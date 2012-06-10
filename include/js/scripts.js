@@ -27,6 +27,10 @@ function scrollContentHandler() {
 		else
 			$(this).hide();
 	});
+	$('div.scrollContent.selected').each(function() {
+		$(this).removeClass('selected');
+	});
+	$(this).addClass('selected');
 }
 
 function initScrollPanes() {
@@ -49,6 +53,10 @@ function moreButtonHandler() {
 function fixContentHeight() {
 	var contentHeight = $(window).height() - $('nav').height() -1;
 	$('#content').css('height',contentHeight);
+	
+	// Fix the height of the map scroll pane
+	var mapScrollHeight = $('div.leftScroll.mapScroll').parent().height() - $('#mapofmemories').height();
+	$('div.leftScroll.mapScroll').css('height',mapScrollHeight);
 }
 
 function fixNavBar() {
