@@ -272,6 +272,8 @@ div#rightContentPane {
 	float:left;
 	height:100%;
 	position:relative;
+	outline:none;
+	outline-width:0;
 }
 
 div.gallery {
@@ -487,4 +489,10 @@ p.compiledBy {
 p.byline {
 	font-weight: bold;
 	line-height: 45px;
+}
+div.endangeredContent {
+	padding:10px;
+	text-align:center;
+	outline:none;
+	outline-width:0;
 }

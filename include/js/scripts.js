@@ -17,6 +17,10 @@ $(document).ready(function(){
 			
 });
 
+$(window).load(function(){
+	initScrollPanes();
+});
+
 function placeMapDots() {
 	$('a#londonDot').css('left',$(window).width()/2-320);
 	$('a#scotlandDot').css('left',$(window).width()/2-400);

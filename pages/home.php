@@ -1,1 +1,1 @@
-home-content
+<h1>Daily Bruin Graduation Issue</h1>
