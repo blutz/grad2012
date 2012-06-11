@@ -20,7 +20,6 @@ $(document).ready(function(){
 function placeMapDots() {
 	$('a#londonDot').css('left',$(window).width()/2-320);
 	$('a#scotlandDot').css('left',$(window).width()/2-400);
-	$('a#englandDot').css('left',$(window).width()/2-380);
 	$('a#chinaDot').css('left',$(window).width()/2+200);
 	$('a#japanDot').css('left',$(window).width()/2+330);
 

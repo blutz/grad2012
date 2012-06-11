@@ -484,3 +484,7 @@ p.compiledBy {
 	border-top:1px solid grey;
 	margin-top:20px;
 }
+p.byline {
+	font-weight: bold;
+	line-height: 45px;
+}
