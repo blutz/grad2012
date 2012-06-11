@@ -2,11 +2,13 @@ $(document).ready(function(){
 	fixContentHeight();
 	fixNavBar();
 	initScrollPanes();
+	fixThirtyIllo();
 
 	$(window).resize(fixContentHeight);
 	$(window).resize(fixNavBar);
 	$(window).resize(initScrollPanes);
 	$(window).resize(fixRightScroll);
+	$(window).resize(fixThirtyIllo);
 	$('#moreDropdown').click(moreButtonHandler);
 	$('div.scrollContentSmall').hover(mapSelectHoverOver, mapSelectHoverOut);
 	$('div.scrollContentSmall').click(mapSelectClickHandler);
@@ -20,6 +22,11 @@ $(document).ready(function(){
 $(window).load(function(){
 	initScrollPanes();
 });
+
+function fixThirtyIllo() {
+	var columnHeight = $('div#rightContentPane').height()-20;
+	$('div#column_start').css('height',columnHeight);
+}
 
 function placeMapDots() {
 	$('a#londonDot').css('left',$(window).width()/2-320);
@@ -86,6 +93,8 @@ function scrollContentHandler() {
 	$(this).addClass('selected');
 	
 	initScrollPanes();
+	
+	$('div#rightContentPane').data('jsp').scrollToY(0);
 
 }
 

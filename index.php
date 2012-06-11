@@ -7,7 +7,7 @@ $validPages = array(
 	'day-in-the-life' => 'Day in the Life',
 	'then-and-now' => 'Then and Now',
 	'ae-profiles' => 'a&e Profiles',	
-/* 	'graduation-columns' => 'Graduation Columns', */
+	'graduation-columns' => 'Graduation Columns',
 );
 
 if(isset($_GET['p']) && array_key_exists($_GET['p'],$validPages)){

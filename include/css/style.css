@@ -491,6 +491,10 @@ p.byline {
 	font-weight: bold;
 	line-height: 45px;
 }
+p.columnByline {
+    border-bottom: 1px solid #aaa;
+    width: 50%;
+}
 div.endangeredContent {
 	padding:10px;
 	text-align:center;
@@ -523,6 +527,9 @@ img.articleHeadImg {
 	margin-right:auto;
 	display:block;
 }
+img.mugImg {
+	width:30%;
+}
 img.noShadow {
 	box-shadow:none;
 }
@@ -544,9 +551,29 @@ span.credit {
     text-transform: uppercase;
 }
 
+h6.columnTitle {
+    color: #222;
+    text-align: center;
+}
+
 p.centerDescription {
     text-align: center;
     width: 80%;
     margin: 0 auto;
     font-style: italic;
+}
+
+div#column_start {
+	background-image:url('../../content/graduation-columns/illo.jpg');
+	background-repeat:no-repeat;
+	background-position:bottom right;
+	height:100%;
+}
+h1.columnHead {
+    font-family: 'Georgia',serif;
+    font-style: italic;
+}
+p.signoff {
+    font-style: italic;
+    border-top: 1px solid #aaa;
 }
