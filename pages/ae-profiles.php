@@ -51,7 +51,7 @@
 </div><!-- end div leftScroll -->
 
 <div id="rightContentPane">
-	<div class="rightContent" id="column_start">
+	<div class="rightContent" id="ae_start">
 		<div id="startContentCenter">
 			<h1>a&e Profiles</h1>
 			<p>The eight people featured here have already made a name for themselves on the UCLA campus, some bringing their talents to concert halls, fashion shows and Spring Sing. On the brink of graduation, these students will continue to pursue their passions whether that be shadowing a head executive at Fox, working as a pyrotechnics operator, producing their own movie or seeking other opportunities that will help them get their foot in the door of the Arts and Entertainment world.</p>
