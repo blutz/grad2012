@@ -33,19 +33,21 @@ function mapSelectHoverOut() {
 		
 	var locationName = $(this).attr('name');
 	$('div.mapMarker.'+locationName).removeClass('mapMarkerSelect');
-
 }
 
 function mapSelectClickHandler() {
 	// This handler fires in addition to the standard handler
 	// for lists. The content loading is taken care of by that one.
-	
 	$('div.mapMarker').each(function() {
 		$(this).removeClass('mapMarkerSelect');
 	});
 	
 	var locationName = $(this).attr('name');
 	$('div.mapMarker.'+locationName).addClass('mapMarkerSelect');
+	
+	$('embed').each(function() {
+		$(this).stopVideo();
+	});
 }
 
 function mapIconClickHandler() {
