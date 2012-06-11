@@ -1,6 +1,10 @@
 <!DOCTYPE html>
 <head>
 	<title>Daily Bruin | Graduation 2012 | <?php echo $validPages[$currentPage]; ?></title>
+
+    <link rel="shortcut icon" href="http://dailybruin.com/favicon.ico">
+
+	
 	<link rel="stylesheet" href="include/css/base.css" type="text/css" />
 	<link rel="stylesheet" href="include/css/style.css" type="text/css" />
 	<link rel="stylesheet" href="include/css/responsive.css" type="text/css" />
