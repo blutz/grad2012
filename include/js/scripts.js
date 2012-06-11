@@ -8,11 +8,50 @@ $(document).ready(function(){
 	$(window).resize(initScrollPanes);
 	$(window).resize(fixRightScroll);
 	$('#moreDropdown').click(moreButtonHandler);
+	$('div.scrollContentSmall').hover(mapSelectHoverOver, mapSelectHoverOut);
+	$('div.scrollContentSmall').click(mapSelectClickHandler);
+	$('div.mapMarker').click(mapIconClickHandler);
 	
 	$('div.scrollContent').click(scrollContentHandler);
 	
 			
 });
+
+function mapSelectHoverOver() {
+	// Don't conflict with the click handler
+	if($(this).hasClass('selected'))
+		return;
+		
+	var locationName = $(this).attr('name');
+	$('div.mapMarker.'+locationName).addClass('mapMarkerSelect');
+}
+
+function mapSelectHoverOut() {
+	// Don't conflict with the click handler
+	if($(this).hasClass('selected'))
+		return;
+		
+	var locationName = $(this).attr('name');
+	$('div.mapMarker.'+locationName).removeClass('mapMarkerSelect');
+
+}
+
+function mapSelectClickHandler() {
+	// This handler fires in addition to the standard handler
+	// for lists. The content loading is taken care of by that one.
+	
+	$('div.mapMarker').each(function() {
+		$(this).removeClass('mapMarkerSelect');
+	});
+	
+	var locationName = $(this).attr('name');
+	$('div.mapMarker.'+locationName).addClass('mapMarkerSelect');
+}
+
+function mapIconClickHandler() {
+	// Simulate a click for the button on the bottom
+	$('div.scrollContent[name='+$(this).attr('name')+']').click();
+}
 
 function loadGallery() {	
 	Galleria.loadTheme('include/gallery/galleria.classic.min.js');

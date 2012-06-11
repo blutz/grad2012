@@ -298,13 +298,89 @@ div.mapMarker {
 	background-position-y:0;
 	background-repeat:no-repeat;
 	position:absolute;
+	cursor:pointer;
 }
 div.mapMarker:hover, div.mapMarker.mapMarkerSelect {
 	background-position-x:-23px;
 }
+div.mapMarker1 {
+	background-image:url('../../content/map-of-memories/smallMarker_1.png');
+	
+    left: 255px;
+    top: 35px;
 
+}
+div.mapMarker2 {
+	background-image:url('../../content/map-of-memories/smallMarker_2.png');
+	
+    top: 120px;
+    left: 154px;
+
+}
+div.mapMarker3 {
+	background-image:url('../../content/map-of-memories/smallMarker_3.png');
+
+    top: 118px;
+    left: 234px;
+}
+div.mapMarker4 {
+	background-image:url('../../content/map-of-memories/smallMarker_4.png');
+	
+    top: 72px;
+    left: 136px;
+
+}
+div.mapMarker5 {
+	background-image:url('../../content/map-of-memories/smallMarker_5.png');
+	
+    top: 73px;
+    left: 12px;
+
+}
+div.mapMarker6 {
+	background-image:url('../../content/map-of-memories/smallMarker_6.png');
+	
+    top: 84px;
+    left: 111px;
+
+}
 div.mapMarker7 {
 	background-image:url('../../content/map-of-memories/smallMarker_7.png');
-    top: 99px;
+	top: 99px;
     left: 162px;
+}
+div.mapMarker8 {
+	background-image:url('../../content/map-of-memories/smallMarker_8.png');
+	
+    top: 84px;
+    left: 186px;
+
+}
+div.mapMarker9 {
+	background-image:url('../../content/map-of-memories/smallMarker_9.png');
+	
+    top: 124px;
+    left: 173px;
+
+}
+div.mapMarker10 {
+	background-image:url('../../content/map-of-memories/smallMarker_10.png');
+	
+    top: 235px;
+    left: 151px;
+
+}
+div.mapMarker11 {
+	background-image:url('../../content/map-of-memories/smallMarker_11.png');
+	
+    top: 18px;
+    left: 211px;
+
+}
+div.mapMarker12 {
+	background-image:url('../../content/map-of-memories/smallMarker_12.png');
+	
+    top: 68px;
+    left: 198px;
+
 }
