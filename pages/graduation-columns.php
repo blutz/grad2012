@@ -31,9 +31,9 @@
 		<span class="profile-desc">Sports</span>
 	</div>
 
-	<div class="scrollContent" name="column_schonaut">
-		<img src="content/graduation-columns/thumb/schonaut.jpg" />
-		<span class="profile-name">Daniel Schonaut</span>
+	<div class="scrollContent" name="column_schonhaut">
+		<img src="content/graduation-columns/thumb/schonhaut.jpg" />
+		<span class="profile-name">Daniel Schonhaut</span>
 		<span class="profile-desc">News</span>
 	</div>
 	
@@ -168,7 +168,7 @@
 <p class="signoff">Eshoff was a sports senior staff writer for 2010-2012,  assistant sports editor for 2010-2011, sports reporter for 2009-2010 and a sports contributor for 2008-2009.</p>
 </div><!-- end div#column_eshoff -->
 
-	<div class="rightContent" id="column_schonaut" style="display:none">
+	<div class="rightContent" id="column_schonhaut" style="display:none">
 		<img src="content/graduation-columns/portrait/schonhaut.jpg" class="articleImg mugImg" />
 
 	<h1 class="columnHead">Bittersweet challenge of journalism</h1>
