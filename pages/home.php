@@ -69,4 +69,11 @@ function changeWord(backward) {
 <h3 id="sixWordsAuthor"></h3>
 <p class="sixWordsController"><a id="sixWordsPrev">&larr;Previous</a><a id="sixWordsNext">Next&rarr;</a></p>
 <p class="sixWordsExplainer">Add your own six words that describe your time at UCLA by emailing us at <a href="mailto:online@media.ucla.edu">online@media.ucla.edu</a>.</p>
-</div>
+
+<div><object style="width:420px;height:402px" ><param name="movie" value="http://static.issuu.com/webembed/viewers/style1/v2/IssuuReader.swf?mode=mini&amp;backgroundColor=%23222222&amp;documentId=120611223843-059bc43d8eed4dd0a2dc8ac55505a269" /><param name="allowfullscreen" value="true"/><param name="menu" value="false"/><param name="wmode" value="transparent"/><embed src="http://static.issuu.com/webembed/viewers/style1/v2/IssuuReader.swf" type="application/x-shockwave-flash" allowfullscreen="true" menu="false" wmode="transparent" style="width:420px;height:402px" flashvars="mode=mini&amp;backgroundColor=%23222222&amp;documentId=120611223843-059bc43d8eed4dd0a2dc8ac55505a269" /></object></div>
+
+<div><object style="width:420px;height:402px" ><param name="movie" value="http://static.issuu.com/webembed/viewers/style1/v2/IssuuReader.swf?mode=mini&amp;backgroundColor=%23222222&amp;documentId=120611224018-e0164e13af4e400496cd0a7331934003" /><param name="allowfullscreen" value="true"/><param name="menu" value="false"/><param name="wmode" value="transparent"/><embed src="http://static.issuu.com/webembed/viewers/style1/v2/IssuuReader.swf" type="application/x-shockwave-flash" allowfullscreen="true" menu="false" wmode="transparent" style="width:420px;height:402px" flashvars="mode=mini&amp;backgroundColor=%23222222&amp;documentId=120611224018-e0164e13af4e400496cd0a7331934003" /></object></div>
+
+<div><object style="width:420px;height:402px" ><param name="movie" value="http://static.issuu.com/webembed/viewers/style1/v2/IssuuReader.swf?mode=mini&amp;backgroundColor=%23222222&amp;documentId=120611224134-37447f0a205e4ae28621840d4318e67b" /><param name="allowfullscreen" value="true"/><param name="menu" value="false"/><param name="wmode" value="transparent"/><embed src="http://static.issuu.com/webembed/viewers/style1/v2/IssuuReader.swf" type="application/x-shockwave-flash" allowfullscreen="true" menu="false" wmode="transparent" style="width:420px;height:402px" flashvars="mode=mini&amp;backgroundColor=%23222222&amp;documentId=120611224134-37447f0a205e4ae28621840d4318e67b" /></object></div>
+
+</div><!-- end div#homeLanding -->
