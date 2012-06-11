@@ -8,6 +8,17 @@
 	<script type="text/javascript" src="include/js/jquery-1.7.2.min.js"></script>
 	<script type="text/javascript" src="include/js/scripts.js"></script>
 	
+	<?php if($currentPage == 'summer-sports') { ?>
+	<link rel="stylesheet" href="include/css/thickbox.css" type="text/css" media="screen" />
+	<script type="text/javascript">
+	$(document).ready(function(){
+		placeMapDots();
+		$(window).resize(placeMapDots);
+	});
+	</script>
+	<script type="text/javascript" src="include/js/thickbox-compressed.js"></script>
+	<?php } ?>
+	
 	<?php if($currentPage == 'then-and-now' || $currentPage == 'day-in-the-life') { ?>
 	<!-- Gallery scripts -->
 	<script type="text/javascript" src="include/js/galleria-1.2.7.min.js"></script>

@@ -18,11 +18,11 @@ $(document).ready(function(){
 });
 
 function placeMapDots() {
-	$('div#londonDot').css('left',$(window).width()/2-320);
-	$('div#scotlandDot').css('left',$(window).width()/2-400);
-	$('div#englandDot').css('left',$(window).width()/2-380);
-	$('div#chinaDot').css('left',$(window).width()/2+200);
-	$('div#japanDot').css('left',$(window).width()/2+330);
+	$('a#londonDot').css('left',$(window).width()/2-320);
+	$('a#scotlandDot').css('left',$(window).width()/2-400);
+	$('a#englandDot').css('left',$(window).width()/2-380);
+	$('a#chinaDot').css('left',$(window).width()/2+200);
+	$('a#japanDot').css('left',$(window).width()/2+330);
 
 }
 

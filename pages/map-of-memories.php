@@ -73,7 +73,7 @@
 <div id="rightContentPane">
 	<div class="rightContentTitle">
 		<h1>Mapping Memories</h1>
-		<p>The UCLA campus can be daunting to many students coming here for the first time. With 163 buildings stretching across 419 acres,  even the most discreet of locations on campus can evoke strong memories for people. Graduating seniors were asked to recall their favorite memory of a place at UCLA, speaking about how their time here has been defined by the places they have been to.</p>
+		<p>The UCLA campus can be daunting to many students coming here for the first time. With 163 buildings stretching across 419 acres,  even the most discreet of locations on campus can evoke strong memories for people. Graduating seniors were asked to recall their favorite memory of a place at UCLA, speaking about how their time here has been defined by the places they have been.</p>
 	</div>
 
 	<div class="rightContent">
