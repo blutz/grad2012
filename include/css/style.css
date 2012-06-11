@@ -412,15 +412,64 @@ div#summerSportsMap {
 	background-position-x:center;
 	background-position-y:-100px;
 	background-repeat:no-repeat;
+	position:relative;
 }
 div#sportsMapTitle {
 	position: absolute;
-	bottom: 20%;
+	bottom: 5%;
 	left: 10%;
 }
 div#sportsMapTitle h1 {
 	font-size: 7em;
 	line-height: 1em;
 	text-align: left;
+}
+div#sportsMapTitle p {
+	width:50%;	
+    text-shadow: 0px 0px 3px rgba(0,0,0,.2);
+}
 
+div.mapDot {
+    text-align: center;
+    color: white;
+    font-weight: bold;
+    background-color: #444;
+    padding-bottom: 2px;
+    padding: 0 7px 2px 7px;
+	box-shadow: 0px 0px 8px rgba(0,0,0,0.5);
+    height: 20px;
+    border-radius: 20px;
+    position: absolute;
+    cursor:pointer;
+    z-index:100;
+    
+    -webkit-touch-callout: none;
+	-webkit-user-select: none;
+	-khtml-user-select: none;
+	-moz-user-select: none;
+	-ms-user-select: none;
+	user-select: none;
+}
+div.mapDot:hover {
+	background-color: white;
+	color: black;
+}
+div#londonDot {
+	top:69px;
+}
+div#scotlandDot {
+	top:38px;
+}
+div#englandDot {
+	top:105px;
+}
+div#chinaDot {
+	top: 219px;
+}
+div#japanDot {
+	top: 160px;
+}
+
+span.notBold {
+	font-weight:400;
 }
