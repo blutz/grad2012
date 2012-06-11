@@ -1,6 +1,6 @@
 <?php
 $validPages = array(
-/* 	'home' => 'Home', */
+	'home' => 'Home',
 	'map-of-memories' => 'Map of Memories',
 	'summer-sports' => 'Summer Sports',
 	'endangered-languages' => 'Endangered Languages',
@@ -15,10 +15,6 @@ if(isset($_GET['p']) && array_key_exists($_GET['p'],$validPages)){
 }
 else
 	$currentPage = 'home';
-
-// Temp fix for pages not being done
-if($currentPage == 'home')
-	$currentPage = 'summer-sports';
 
 if(!file_exists('pages/'.$currentPage.'.php')) {
 	header("HTTP/1.0 404 Not Found");

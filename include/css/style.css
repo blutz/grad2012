@@ -577,3 +577,45 @@ p.signoff {
     font-style: italic;
     border-top: 1px solid #aaa;
 }
+
+h1#homeWelcome {
+	text-align: center;
+	font-size: 5em;
+	line-height: 1em;
+	margin-top: 28px;
+}
+h2#sixWords {
+	display: block;
+	text-align: center;
+	font-size: 1.2em;
+	font-weight: normal;
+	font-style: italic;
+}
+h3#sixWordsAuthor {
+	display: block;
+	text-align: center;
+	font-size: 1em;
+	line-height: 0;
+}
+p.sixWordsExplainer {
+	width: 200px;
+	margin-left: auto;
+	margin-right: auto;
+	margin-top: 100px;
+}
+p.sixWordsController {
+    display: block;
+    width: 400px;
+    margin-left: auto;
+    margin-right: auto;
+}
+a#sixWordsPrev, a#sixWordsNext {
+	display:block;
+	cursor:pointer;
+}
+a#sixWordsPrev {
+	float:left;
+}
+a#sixWordsNext {
+	float:right;
+}
