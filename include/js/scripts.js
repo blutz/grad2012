@@ -84,6 +84,9 @@ function scrollContentHandler() {
 		$(this).removeClass('selected');
 	});
 	$(this).addClass('selected');
+	
+	initScrollPanes();
+
 }
 
 function initScrollPanes() {

@@ -6,7 +6,7 @@ $validPages = array(
 	'endangered-languages' => 'Endangered Languages',
 	'day-in-the-life' => 'Day in the Life',
 	'then-and-now' => 'Then and Now',
-/* 	'ae-profiles' => 'a&e Profiles',	 */
+	'ae-profiles' => 'a&e Profiles',	
 /* 	'graduation-columns' => 'Graduation Columns', */
 );
 
