@@ -78,6 +78,13 @@
 		<span class="profile-name">Calvin Lau</span>
 		<span class="profile-desc">Copy</span>
 	</div>
+	
+	<div class="scrollContent" name="column_boden">
+		<img src="content/graduation-columns/thumb/boden.jpg" />
+		<span class="profile-name">Daniel Boden</span>
+		<span class="profile-desc">a&amp;e, Online</span>
+	</div>
+
 
 
 
@@ -419,6 +426,28 @@
 <p class="signoff">Lau was a slot editor from 2011-2012, a copy staffer from 2010-2011, and a copy contributor from 2009-2010.</p>
 </div><!-- end div#column_lau -->
 
+	<div class="rightContent" id="column_boden" style="display:none">
+		<img src="content/graduation-columns/portrait/boden.jpg" class="articleImg mugImg" />
+
+	<h1 class="columnHead">A home to return to</h1>
+	<p class="byline columnByline">Daniel Boden</p>
+		
+<p>After four weeks of training, I felt ready to take on my first story. After the Arts & Entertainment section’s intern party, I felt like I had found my college family. After my first two articles&mdash;the only stories I would write my first quarter at the Daily Bruin&mdash;went to print, I felt like a real journalist.</p>
+<p>But at the end of the quarter, I dropped out of school for three years. When I came back to UCLA as a 22-year-old second-year, the only thing I was sure of was that I wanted to start writing for the Daily Bruin again as soon as possible.</p>
+<p>I went to the A&E editors and told them my story. I had an assignment that weekend.</p>
+<p>Despite different faces, it was still the same Daily Bruin.</p>
+<p>The office at 118 Kerckhoff still had the same layout. A&E still occupied the same corner of the newsroom. Stacks of CDs and unreviewed novelty books littered the shelves and desks. There still were deadlines. And there still were no Oxford commas&mdash;a testament to the fact that true style never changes.</p>
+<p>Our daily product had not changed, neither had the process by which writers and editors create the product. But more than anything, the fact that the Daily Bruin felt like a home to me had not changed&mdash;no matter who led the paper.</p>
+<p>Charles Proctor. Alene Tchekmedyian. Farzad Mashhood. Lauren Jow.</p>
+<p>These are the Daily Bruin editors-in-chief under whom I have worked. I think of these four men and women as great leaders. Each had different struggles as they tried to take the newspaper in new directions, navigating the increasingly tempestuous climate of print journalism. Their leadership was essential to the success of the newspaper.</p>
+<p>But even the top dog at the Daily Bruin is eventually forgotten. No other undergraduate at the Bruin remembers Proctor. In a few years, Tchekmedyian, Mashhood and Jow will fade from memory. And what about me?</p>
+<p>I have written so infrequently this year that my byline hardly even knows who I am. Most writers who joined staff this year will not even recognize my face in that mugshot up above.</p>
+<p>If the general readership of the Daily Bruin concedes to even scan this column, most will agree with the statement: &rdquo;I never heard of the guy.&ldquo;</p>
+<p>And that’s fine by me. I soon realized that I did not write for the Daily Bruin to get a byline. I later realized that journalism was not my lifelong passion.</p>
+<p>I have always written because I wanted a place where I felt I belonged. A place that would never go away, even if the people did. I wanted a place, not where I would be remembered, but one that I could never forget.</p>
+<p>That is exactly what I got with the Daily Bruin. Something real, everyday, making it true. Something to hold in my hands, even if that something never knows it was held.</p>
+<p class="signoff">Daniel Boden wrote for A&E in 2006 and from 2009-2012. He worked for multimedia from 2010-2012 and was web producer for the summer of 2011.
+</div><!-- end div#column_boden -->
 
 
 
