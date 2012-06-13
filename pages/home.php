@@ -35,7 +35,10 @@ sixWordsAuthors[9]="Ethan Scapellati"
 sixWords[10]="She hoped.  She jumped. She flew."
 sixWordsAuthors[10]="Tina Ngo"
 
-var maxSixWords = 10;
+sixWords[11]="UCLA= growth, learning, love, pride & confidence."
+sixWordsAuthors[11]="Yolanda Michel"
+
+var maxSixWords = 11;
 var currentWords = Math.floor(Math.random()*(maxSixWords+1));
 
 $(document).ready(function(){
