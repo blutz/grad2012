@@ -126,7 +126,7 @@ function fixContentHeight() {
 
 function fixNavBar() {
 	// Set the nav bar to a width to make sure it fits on the top
-	var navWidth = $(window).width() - $('div#logos').width() - $('a#moreDropdown').outerWidth(true);	
+	var navWidth = $(window).width() - $('div#logos').width() - $('a#moreDropdown').outerWidth(true) -1;	
 	$('ul.mainNav').css('width',navWidth);
 	
 	// Put everything that doesn't fit in the nav bar in the more link
